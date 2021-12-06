@@ -15,3 +15,7 @@ Retorno no terminal:
 docker: Error response from daemon: Conflict. The container name "/meuContainer" is already in use by container "...". You have to remove (or rename) that coontainer to be able to reuse that name. See "docker run --help". 
 
 </code>
+
+
+Se você rodar o comando ```docker container ps -a``` irá ver que seu container está na lista da coluna "NAME".
+
