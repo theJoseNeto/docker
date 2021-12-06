@@ -38,4 +38,10 @@ Basicamente ele explica que o docker client "chamou" o docker daemon, que é o s
 
 Ele explica mais alguamas coisinhas, mas por enquanto vamos permanecer no raso, logo logo iremos nadas em águas mais profundas. 
 
+### O que o ```docker container run``` faz: 
+
+Ele busca uma imagem, se ela não existir ele a baixa e a executa dentro do container. E agora se você rodar os comando novamente (com o nome da imagem após o "run") ele terá feito o cache dessa imagem na máquina onde o container foi criado e nem sequer vai carregar mais nada, apenas "rodar" o container com a imagem. Então o comando run ao ser chamado faz o "docker image pull" que o comando para fazer o pull de uma imagem, também roda o comando "docker container create", que eu nem preciso falar muito sobre ele já que o nome é auto explicativo
+
+
+
 
